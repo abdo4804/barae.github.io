@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romantic Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            color: #fff;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        h1 {
+            color: #fff;
+        }
+        p {
+            font-size: 18px;
+        }
+        .heart {
+            width: 100px;
+            height: 100px;
+            background-color: #e75480;
+            position: relative;
+            transform: rotate(-45deg);
+            margin-top: 20px; /* Adjust margin as needed */
+        }
+        .heart::before,
+        .heart::after {
+            content: '';
+            width: 100px;
+            height: 100px;
+            background-color: #e75480;
+            border-radius: 50%;
+            position: absolute;
+        }
+        .heart::before {
+            top: -50px;
+            left: 0;
+        }
+        .heart::after {
+            top: 0;
+            left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Love you barae</h1>
+    <p>You are the <strong>light</strong> of my <em>life</em> </p>
+    <p>i will never intend to hurt you sweety <span style="color: #fff;">i love u</span> <3.</p>
+    <div class="heart"></div>
+</body>
+</html>
